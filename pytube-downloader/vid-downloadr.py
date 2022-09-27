@@ -11,8 +11,8 @@ def download_vid(yt):
     input_itag = input("Enter itag value : ")
     video = yt.streams.get_by_itag(input_itag)
 
-    video.download("pytube-downloader")
-    print("Vid is downloading as\"", yt.title + ".mp4\"")
+    video.download("pytube-downloader/vids")
+    print("Vid is downloading as \"", yt.title + ".mp4\"")
 
 
 link = input("Enter your link here : ")
